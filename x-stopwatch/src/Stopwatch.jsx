@@ -30,7 +30,7 @@ return (()=>{
     return (
    <div >
         <h1>Stopwatch</h1>
-        <h2>Time:{formatTime(Timer)}</h2>
+        <h2>Time: {formatTime(Timer)}</h2>
         <button onClick={()=>{
             setisRunning((prev)=>!prev);
         }}>{isRunning?"Stop":"Start"}</button>
